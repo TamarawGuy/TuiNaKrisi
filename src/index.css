@@ -1,0 +1,39 @@
+body {
+  background: rgb(230, 227, 227);
+  /* background-color: red; */
+}
+
+.my-card:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+h4 {
+  font-size: 19px
+}
+
+.increase-decrease {
+  display: flex;
+  justify-content: space-around;
+}
+
+#stacked-barcharts {
+  display: flex;
+  justify-content: space-around;
+}
+
+#individual {
+  display: flex;
+  justify-content: space-around;
+}
+
+#open-answears {
+  display: flex;
+  justify-content: center;
+}
